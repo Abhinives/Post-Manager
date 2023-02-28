@@ -22,7 +22,7 @@ function newpost(){
   var cont=document.getElementById("content").value;
 
   let date = new Date().toJSON();
-
+  if(tit!='' && cont!=''){
   const postData = {
     
     Title: tit,
@@ -42,6 +42,10 @@ function newpost(){
     .then((response) => response.json())
     .then((data) => location.reload())
     .catch((error) => console.error(error));
+  }
+  else{
+   alert('Empty field'); 
+  }
 }
 function save(){
   var name1=document.getElementById('name2').value;
