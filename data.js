@@ -50,8 +50,7 @@ function save(){
     alert("Empty");
   }
   else{
-    alert(name1);
-    alert(datalength);
+   
     let date = new Date().toJSON();
     console.log(date);
 
@@ -80,6 +79,7 @@ fetch(endpoint, {
   })
   .then(data => {
     console.log('User created successfully:', data);
+  location.reload();
     clr1();
     
 
