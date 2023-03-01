@@ -1,5 +1,5 @@
 # Post-Manager
-An Admin dashboard to manage posts created by users.
+An Admin dashboard to manage posts created by users. Site is live https://main--courageous-profiterole-426398.netlify.app/
 ![first](https://user-images.githubusercontent.com/79682797/221767863-c46494f1-c896-403a-be32-d7a6b4f90e8f.png)
 ![second](https://user-images.githubusercontent.com/79682797/221767920-f7f72bd4-6e0c-4fb2-9334-a5670eb3c47a.png)
 ![third](https://user-images.githubusercontent.com/79682797/221767935-84d72136-a8f2-422b-8c07-2c8cc65d6fe9.png)
